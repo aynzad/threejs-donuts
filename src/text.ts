@@ -10,7 +10,7 @@ export const addTextGeometry = (
   scene: THREE.Scene,
   title = "Three.js Donuts"
 ) => {
-  fontLoader.load("../assets/fonts/helvetiker_bold.typeface.json", (font) => {
+  fontLoader.load("/fonts/helvetiker_bold.typeface.json", (font) => {
     const textGeometry = new TextGeometry(title, {
       font,
       size: 0.5,
